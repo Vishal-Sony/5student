@@ -10,14 +10,14 @@ int main()
     for(i=0;i<n;i++)
     {
         printf("\nEnter details of the student :\n");
-        printf("Enter Name :");
+        printf("Enter the Name :");
         scanf("%s",name[i]);
         printf("\nEnter UID :");
         scanf("%s",UID[i]);
         printf("\nEnter total marks :");
         scanf("%d",&marks[i]);
     }
-    printf("The data stored in the system are : \n");
+    printf("The data stored in the system are as follows : \n");
     for(i=0;i<n;i++)
     {
         printf("Name :- %s\n",name[i]);
